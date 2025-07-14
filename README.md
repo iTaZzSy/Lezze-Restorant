@@ -2,7 +2,7 @@
 
 ## Lezze Restaurant Website 
 
-**Lezze Restaurant** is a fully responsive and modern restaurant website I designed and developed using **HTML5, CSS3, and vanilla JavaScript**. The project is tailored for food-related businesses such as restaurants and cafes, with a strong focus on **user experience**, **multi-language accessibility**, and **mobile-first design**.
+**Lezze Restaurant** is a fully responsive and modern restaurant website I designed and developed using **HTML5, CSS3, and JavaScript**. The project is tailored for food-related businesses such as restaurants and cafes, with a strong focus on **user experience**, **multi-language accessibility**, and **mobile-first design**.
 
 This project demonstrates my ability to build real-world, visually engaging websites from scratch, implement clean and scalable code, and deliver interactive features that enhance user engagement.
 
