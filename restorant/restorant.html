@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-translate="title"></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="top-bar">
+        <div class="top-bar-container">
+            <div class="contact-info">
+                <a href="https://wa.me/905510807723">
+                    <i class="fas fa-phone"></i> <span class="phone" dir="ltr"></span>
+                </a>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/hsom_saleem/"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-snapchat-ghost"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <div class="header-container">
+            <a href="#" class="logo">
+                <i class="fas fa-utensils" style="padding:13%;"></i>
+                Lezze
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#" data-translate="home"></a></li>
+                    <li><a href="#menu" data-translate="menu"></a></li>
+                    <li><a href="#about" data-translate="about"></a></li>
+                    <li><a href="#gallery" data-translate="gallery"></a></li>
+                    <li><a href="https://wa.me/905510807723" data-translate="contact"></a></li>
+                    <li class="language-menu">
+                        <a href="#" data-translate="language">اللغة <i class="fas fa-chevron-down"></i></a>
+                        <ul class="language-dropdown">
+                            <li><a href="#" class="lang-btn" data-lang="ar">العربية</a></li>
+                            <li><a href="#" class="lang-btn" data-lang="en">English</a></li>
+                            <li><a href="#" class="lang-btn" data-lang="tr">Türkçe</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <a href="https://wa.me/905510807723">
+
+                <button class="cta-button" data-translate="rev"></button>
+            </a>
+        </div>
+    </header>
+
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="animate" data-translate="hero_title"></h1>
+            <p class="animate delay-1" data-translate="hero_subtitle"></p>
+            <div class="hero-buttons animate delay-2">
+                <button class="cta-button" data-translate="order_now"></button>
+                <a href="#menu">
+                    <button class="secondary-button" data-translate="view_menu"></button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="features">
+        <div class="section-title">
+            <h2 data-translate="why_choose"></h2>
+            <p data-translate="unique_experience"></p>
+        </div>
+
+        <div class="features-grid">
+            <div class="feature-card animate">
+                <div class="feature-icon">
+                    <i class="fas fa-leaf"></i>
+                </div>
+                <h3 data-translate="fresh_ingredients"></h3>
+                <p data-translate="fresh_desc"></p>
+            </div>
+
+            <div class="feature-card animate delay-1">
+                <div class="feature-icon">
+                    <i class="fas fa-utensils"></i>
+                </div>
+                <h3 data-translate="special_dishes"></h3>
+                <p data-translate="dishes_desc"></p>
+            </div>
+
+            <div class="feature-card animate delay-2">
+                <div class="feature-icon">
+                    <i class="fas fa-award"></i>
+                </div>
+                <h3 data-translate="professional_chefs"></h3>
+                <p data-translate="chefs_desc"></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <div class="section-title">
+            <h2 data-translate="menu_title"></h2>
+            <p data-translate="menu_subtitle"></p>
+        </div>
+
+        <div class="menu-tabs">
+            <button class="menu-tab active" data-translate="main_courses"></button>
+            <button class="menu-tab" data-translate="appetizers"></button>
+            <button class="menu-tab" data-translate="drinks"></button>
+            <button class="menu-tab" data-translate="desserts"></button>
+        </div>
+
+        <div class="menu-grid">
+            
+            <div class="menu-item" data-category="drinks">
+                <div class="menu-item-img">
+                    <img src="./imgs/juice.avif" alt="عصير برتقال طبيعي">
+                </div>
+                <div class="menu-item-content">
+                    <div class="menu-item-header">
+                        <h3 class="menu-item-title" data-translate="drink1"></h3>
+                        <span class="menu-item-price">45 TL</span>
+                    </div>
+                    <p class="menu-item-desc" data-translate="drink1_desc"></p>
+                    <div class="menu-item-footer">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="menu-item" data-category="main">
+                <div class="menu-item-img">
+                    <img src="./imgs/chicken.avif" alt="كباب">
+                </div>
+                <div class="menu-item-content">
+                    <div class="menu-item-header">
+                        <h3 class="menu-item-title" data-translate="item1"></h3>
+                        <span class="menu-item-price">285 TL</span>
+                    </div>
+                    <p class="menu-item-desc" data-translate="item1_desc"></p>
+                    <div class="menu-item-footer">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="menu-item" data-category="main">
+                <div class="menu-item-img">
+                    <img src="./imgs/Salmon.jpg" alt="سلمون مشوي">
+                </div>
+                <div class="menu-item-content">
+                    <div class="menu-item-header">
+                        <h3 class="menu-item-title" data-translate="item2"></h3>
+                        <span class="menu-item-price">350 TL</span>
+                    </div>
+                    <p class="menu-item-desc" data-translate="item2_desc"></p>
+                    <div class="menu-item-footer">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item" data-category="main">
+                <div class="menu-item-img">
+                    <img src="./imgs/pizza.avif" alt="باستا كريمة">
+                </div>
+                <div class="menu-item-content">
+                    <div class="menu-item-header">
+                        <h3 class="menu-item-title" data-translate="item3"></h3>
+                        <span class="menu-item-price">390 TL</span>
+                    </div>
+                    <p class="menu-item-desc" data-translate="item3_desc"></p>
+                    <div class="menu-item-footer">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item" data-category="main">
+                <div class="menu-item-img">
+                    <img src="./imgs/beef.avif" alt="برجر لحم">
+                </div>
+                <div class="menu-item-content">
+                    <div class="menu-item-header">
+                        <h3 class="menu-item-title" data-translate="item4"></h3>
+                        <span class="menu-item-price">480 TL</span>
+                    </div>
+                    <p class="menu-item-desc" data-translate="item4_desc"></p>
+                    <div class="menu-item-footer">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="special-offers">
+        <div class="offers-container">
+            <h2 class="section-title" data-translate="special_offers"></h2>
+            <p data-translate="limited_offers">info</p>
+
+            <div class="timer">
+                <div class="timer-item">
+                    <div class="timer-number" id="countdown-days">00</div>
+                    <div class="timer-label" data-translate="days"></div>
+                </div>
+                <div class="timer-item">
+                    <div class="timer-number" id="countdown-hours">00</div>
+                    <div class="timer-label" data-translate="hours"></div>
+                </div>
+                <div class="timer-item">
+                    <div class="timer-number" id="countdown-minutes">00</div>
+                    <div class="timer-label" data-translate="minutes"></div>
+                </div>
+                <div class="timer-item">
+                    <div class="timer-number" id="countdown-seconds">00</div>
+                    <div class="timer-label" data-translate="seconds"></div>
+                </div>
+            </div>
+            <button class="cta-button" data-translate="claim_offer"></button>
+        </div>
+
+    </section>
+
+    <section class="reservation" id="contact">
+        <div class="section-title">
+            <h2 data-translate="reservation"></h2>
+            <div class="contact-info2">
+                <a href="https://wa.me/905510807723">
+                    <i class="fas fa-phone"></i> <span class="phone" data-translate="phone_number" dir="ltr"></span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3 data-translate="about_restaurant"></h3>
+                <p data-translate="about_text"></p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/hsom_saleem/"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-snapchat-ghost"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h3 data-translate="quick_links"></h3>
+                <ul class="footer-links">
+                    <li><a href="#" data-translate="home"></a></li>
+                    <li><a href="#menu" data-translate="menu"></a></li>
+                    <li><a href="#about" data-translate="about"></a></li>
+                    <li><a href="#gallery" data-translate="gallery"></a></li>
+                    <li><a href="https://wa.me/905510807723" data-translate="contact"></a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3 data-translate="working_hours"></h3>
+                <ul class="footer-links">
+                    <li data-translate="hours_text1"></li>
+                    <li data-translate="hours_text2"></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3 data-translate="contact_us"></h3>
+                <ul class="contact-info">
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span data-translate="address"></span>
+                    </li>
+                    <div class="contact-info">
+                        <a href="https://wa.me/905510807723">
+                            <li>
+                                <i class="fas fa-phone"></i>
+                                <span class="phone" data-translate="phone_number" dir="ltr"></span>
+                            </li>
+                        </a>
+                    </div>
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <span>info@lezze.com</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p data-translate="copyright" id="year">&copy;</p>
+        </div>
+    </footer>
+    <script src="translation.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
