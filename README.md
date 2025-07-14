@@ -8,7 +8,7 @@ This project demonstrates my ability to build real-world, visually engaging webs
 
 ### 🔧 Technologies Used
 
-* HTML5, CSS3, JavaScript (Vanilla)
+* HTML5, CSS3, JavaScript
 * Responsive Design Techniques
 * CSS Animations and Transitions
 
