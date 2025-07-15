@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', function () {
         document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
     }
 
-    const savedLang = localStorage.getItem('language') || 'ar';
+    const savedLang = localStorage.getItem('language') || 'tr';
     setLanguage(savedLang);
 });
 
